@@ -1,0 +1,9 @@
+pip install langchain
+pip install langchain_community langchain_chroma
+pip install pypdf
+pip install pymupdf
+pip install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch-nightly -c nvidia
+pip install -U Pillow==10.3.0
+pip install sentence-transformers==2.4.0
+pip install chromadb
+pip install -U langsmith
