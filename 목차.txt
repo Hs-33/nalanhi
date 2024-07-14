@@ -1,0 +1,17 @@
+회의 요약
+1. 전체 데이터 살펴보고 3개씩 골라오기 (pdf,ppt 상관 없이)
+2. 모아온 데이터중 3~4개로 줄이기.
+3.출력 안정
+	- 안정적인 한국어 답변 출력
+	- prompt engineering 연구및 정형화 시키기.
+	- 한국어 특화 임베딩 자세히 알아보기
+	- eeve + gemma2 등 다양한 모델 접목 시키기.
+4. form 
+	- 인스타 게시글 형태 정의하기
+	- 게시글, 답변 각각의 output 정의하기
+	- stable diffusion api 호출 시도하기
+5. 구현
+
+from langchain_community.llms import Ollama
+llm = Ollama(model="gemma2")
+llm.invoke("Why is the sky blue?")
