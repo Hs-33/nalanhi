@@ -1,0 +1,3 @@
+data1
+- from PyPDF2 import PdfReader
+- - 4 -  / -4p 제거(r"- \d -|-\dp")
